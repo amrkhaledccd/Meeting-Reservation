@@ -24,6 +24,8 @@ ReservationRequestProcessor - It is responsible to parse the reservation request
 
 MeetingCalendar - It is responsible for validating that the reservation is within office hours, check for overlaps and make the reservation.
 
+Calendar uses Map to group the reservations by day.
+
 ## Build and Run
 
 Navigate to project folder 
